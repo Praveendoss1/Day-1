@@ -1,0 +1,20 @@
+JavaScript objects are fundamental building blocks used to represent and manipulate data in a structured way.
+objects are collections of key-value pairs, where keys are strings (or symbols) and values can be of any type, including other objects.
+Example  of objects:
+var person ={
+    name="Praveen"
+    age=28
+    language="Tamil"
+    Graduation="BE"
+}
+Console.log(person.name) // output = Praveen
+Console.log(person.age)  // output = 28
+Internally, JavaScript engines use various optimization techniques to manage objects efficiently.
+When an object is first created, it starts with a simple structure called a "shape" or "hidden class."
+This structure helps the engine quickly locate property values.
+As properties are added or removed, the engine may adjust the shape to maintain performance.
+For example, adding a new property could transition the object to a new hidden class with additional slots.
+
+Conclusion:
+Understanding objects and their internal representation helps developers write efficient and effective JavaScript code.
+Mastery of object manipulation and the prototype chain is essential for leveraging the full power of JavaScript in modern web development.

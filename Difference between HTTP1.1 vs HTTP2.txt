@@ -1,0 +1,14 @@
+HTTP is a Hyper Text transfer protocol.
+By using HTTP user sends response to the server and the server sends reponse to the user.
+HTTP 1.1 was created in 1997 and HTTP 2 was created in 2015.
+In HTTP 1.1 , only one connection can be made per TCP connection at a time,Leading to the need of multiple connection.
+where as in HTTP 2,multiple request and responses can be sent simultaneously over a single connection , reducing latency.
+HTTP1.1, Uses plain text for communication, which is easy to read but less efficient ,
+where as HTTP 2 works on the binary framing layer instead of textual that converts all the messages in binary format .
+HTTP 1.1 Can operate over both HTTP (insecure) and HTTPS (secure) connections .
+Though  HTTP 2 can technically work over plaintext, most implementations require the use of TLS (HTTPS), enhancing security by default.
+HTTP1.1 lacks built-in flow control mechanisms.
+Where as in HTTP 2 includes flow control features to manage the rate of data transfer between the client and server, ensuring that the communication channel is used optimally without overwhelming either party.
+
+Conclusion:
+HTTP 2 is designed to make web browsing faster and more efficient, addressing many of the limitations found in HTTP1.1.
